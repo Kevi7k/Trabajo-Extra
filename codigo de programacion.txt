@@ -1,0 +1,14 @@
+import muvium.compatibility.arduino.*; 
+
+public class Class0 extends Arduino{  
+	public void setup(){   
+		pinMode(9, OUTPUT); // en vez de pinLED (el numero del termimal)
+	}
+	public void loop(){
+
+		digitalWrite(9, HIGH); // enciende la led
+		delay(1000); // retardo de 1 seg			
+		digitalWrite(9, LOW); // Apaga la led 
+		delay(2000);
+	}
+}
