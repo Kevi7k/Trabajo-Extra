@@ -1,10 +1,9 @@
-# Trabajo-Extra
-# Práctica 4
-# *TEOREMA DE SUPERPOSICIÓN*
-## *PLANTEAMIENTO DEL PROBLEMA*
-Se han observado diferentes técnicas para la resolución de circuitos, entre ellos el análisis nodal y el análisis de mallas, todo esto bajo la aplicación de las Leyes de Kircchoff y la Ley de Ohm. Pero cuando en un circuito encontramos más de dos fuentes de voltajes, ya sea de corriente, de voltaje o ambas, el cálculo de voltaje o corriente en cada uno de sus componentes resulta ser mucho más complicado. Es por esto que surge una nueva técnica, el teorema de la Superposición, del cual queremos conocer que tan efectivo es y para esto también tendremos que comprobarlo.
-
+# Práctica Extra
+# Simulación con Ardiuno.
+## *INTRODUCCIÓN*
+Esta práctica trata de comprender el funcionamiento sobre un elemento electrónico que es muy importante en la actualidad, ya que este combina la electrónica con la programación y es muy utilizado en proyectos e inventos que hay actualmente, nos enfocaremos en una practica un poco sencilla , que consiste en hacer parpadear una LED dentro de un intervalo de tiempo y para realizar eso lo hacemos con el sofware de virtual breadboard , la programacion con IDE arduino, donde se lo realizará paso a paso.
 ## *OBJETIVOS:*
+
 # Objetivo general
 - Diseñar un circuito electrico mediante la simulación en laboratorios virtuales para comprobar el teorema de Superposición.
 
@@ -12,10 +11,7 @@ Se han observado diferentes técnicas para la resolución de circuitos, entre el
 - Comprender la metodología de la Superposición para clarificar los conceptos previamente adquiridos en la teoría.
 - Comparar los resultados teóricos con los prácticos para encontrar el error entre mediciones obtenidas.
 
-
-
 ## *LISTA DE MATERIALES:*
-
 
 | Cantidad | Material de Equipo |
 | ------------- | ------------- |
