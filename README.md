@@ -15,71 +15,49 @@ Esta práctica trata de comprender el funcionamiento sobre un elemento electrón
 
 | Cantidad | Material de Equipo |
 | ------------- | ------------- |
-| 2  | Fuente de voltaje de C.D. |
-| 2  | Multímetros digitales |
+| 1  | Arduino |
 |  1 | Resistor de 1k  |
-|  1 | Resistor de 2.2k  |
-|  1 | Resistor de 820k  |
-|  1 | Resistor de 470k  |
+|  1 | LED    |
 | 1  | Protoboard      |
 
 ## *MARCO TEÓRICO*
-El teorema de la superposicion se puede utilizar tanto en AC como en DC , para poder determinar si se puede aplicar este método debemos tomar en cuenta que solo es aplicable para circuitos lineales , que estan conformados por componentes en las cuales la corriente es directamente proporcional a la tensión de sus terminales.
+¿Que es Ardiuno?
 
-Este método nos ayuda a calcular tanto como voltajes , intensidades en las cuales halla varias fuentes de energía (fuentes de voltaje, fuentes de corrientes) y para obtener el resultado de este procedimiento se puede hallar sumando la tensión del circuito a cada una de las fuentes (independientes) por separado.
+El ardiuno se caracteriza por ser una plataforma electrónica de código libre, la cual está basada en hardware y software libre, flexible y fácil de utilizar para los creadores y desarrolladores.Esto permite crear todo tipo de microordenadores de una sola placa, en el cual se puede dar diferentes tipos de uso.
+En otras palabras tambien se lo considera como un hardware libre , donde los dispositivos y diagramas son de acceso público para toda persona, entonces puede haber réplicas de los mismos.
 
-![alt text](https://github.com/Kevi7k/Practica4/blob/master/Img/Fig1.png)
+Se puede decir que ardiuno ofrece las bases para que cualquier persona o empresa pueda crear sus propias placas, pero siempre van a partir de la misma base.
 
-Fig 1. Superposición
+El software libre son los programas informáticos donde los códigos son accesibles para todas las personas y esto a su vez pueden modificarse, tambien ofrece la plataforma Arduino IDE (Entorno de Desarrollo Integrado), donde se realiza todo lo antes mencionado, que tenga que ver con la programación.
 
-Los pasos a seguir son los siguientes:
+¿Como funciona?
 
-1) Se quitan las todas las fuentes excepto una, tomar en cuenta que si anulamos un voltaje este se convierte en corto circuito y si anulamos una corriente se hace un circuito abierto
+Este elemento electrónico es una placa basada en un microcontrolador ATMEL, los micocontroladores son circuitos en los cuales se pueden indicar instrucciones , pero eso se lo hace con lenguaje de programación donde utilizamos el enterno Arduino IDE. Esas instrucciones son las que nos permiten crear programas que interactúen con los circuitos dentro de la placa.
 
-![alt text](https://github.com/Kevi7k/Practica4/blob/master/Img/Voltaje%20apagado.png)
+El microcontrolador de Arduino posee lo que se llama una interfaz de entrada, que es una conexión en la que podemos conectar en la placa diferentes tipos de periféricos. La información de estos periféricos que conectes se trasladará al microcontrolador, el cual se encargará de procesar los datos que le lleguen a través de ellos.
 
-Fig 2. Voltaje transformado
-
-![alt text](https://github.com/Kevi7k/Practica4/blob/master/Img/Corriente%20apagada.png)
-
-Fig 3. Corriente transformada
-
-
-2) Se calcula el voltaje y intensidades solo con la fuente que no se quito.
-
-3) Se repiten los pasos 1 y 2 con cada fuente.
-
-4) Se suman las respuestas de cada fuente (Tomar en cuenta los signos con lo que se desplaza la corriente , en algunos casos puede restarse)
-
+También cuenta con una interfaz de salida, que es la que se encarga de llevar la información que se ha procesado en el Arduino a otros periféricos. Estos periféricos pueden ser pantallas o altavoces en los que reproducir los datos procesados, pero también pueden ser otras placas o controladores.
 
 ## *PROCEDIMIENTO*
-1. Implemente el siguiente circuito que se muestra en la figura:
+1. Entrar al programa de Breadboard:
 
 ![alt text](https://github.com/Kevi7k/Practica4/blob/master/Img/Diagrama%201.jpg)
 
 Fig.4. Circuito para comprobar el teorema de Superposición
 
-2. Con las dos fuentes conectadas, mida el voltaje VA y la corriente IX, respetando tanto la polaridad del voltaje como el sentido de la corriente que se proporcionan. Anote el valor de las mediciones en la tabla 4.1 y 4.2 respectivamente.
+2.Poner todos los materiales:
 
-3. Haga “cero” la fuente de voltaje de 12 V (V2) y mida el voltaje VA y la corriente IX, respetando tanto la polaridad del voltaje como el sentido de la corriente que se proporcionan. Anote el valor de las mediciones en la tabla 4.1 y 4.2 respectivamente.
+3.Armar el circuito:
 
-4. Haga “cero” la fuente de voltaje de 20 V (V1) y mida el voltaje VA y la corriente IX, respetando tanto la polaridad del voltaje como el sentido de la corriente que se proporcionan. Anote el valor de las mediciones en la tabla 4.1 y 4.2 respectivamente.
+4.Dirigirse a la esquina superior derecha y añadir "NEW JAVA SOURCE FILE"
 
-## *TABULACIÓN DE DATOS*
+5.Añadir el Add New JAVA
 
-|Tipo de dato|Voltaje Total (Va)| Voltaje (Va)cuando V2=0 |Voltaje (Va)cuando V1=0|
-| ------------- | ------------- | ------------- | ------------- |
-| Calculado | 959[mV] | 7,479[V] | 6,52[V] |
-| Medido | 952[mV] | 7,48[V] | 6,53[V] |
+6.Crear la nueva hoja para la programación.
 
-TABLA I. Medición de voltaje aplicando superposición
+7.Realizar el respectivo código para que la LED sea intermitente.
 
-|Tipo de dato|Corriente Total (Ix)| Corriente (Ix) cuando V2=0 |Corriente (Ix) cuando V1=0|
-| ------------- | ------------- | ------------- | ------------- |
-| Calculado | 25,51[mA] | 0[A] | 25,51[mA] |
-| Medido | 25,5[mA] | 0[A] | 25,5[mA] |
-
-TABLA II. Medición de corriente aplicando superposición
+8.Comprobar si funciona.
 
 ## *DIAGRAMA*
 
