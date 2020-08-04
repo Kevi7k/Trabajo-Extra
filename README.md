@@ -30,6 +30,12 @@ Se puede decir que ardiuno ofrece las bases para que cualquier persona o empresa
 
 El software libre son los programas informáticos donde los códigos son accesibles para todas las personas y esto a su vez pueden modificarse, tambien ofrece la plataforma Arduino IDE (Entorno de Desarrollo Integrado), donde se realiza todo lo antes mencionado, que tenga que ver con la programación.
 
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/arduino.jpg)
+
+Fig 1. Arduino.
+
+
 ¿Como funciona?
 
 Este elemento electrónico es una placa basada en un microcontrolador ATMEL, los micocontroladores son circuitos en los cuales se pueden indicar instrucciones , pero eso se lo hace con lenguaje de programación donde utilizamos el enterno Arduino IDE. Esas instrucciones son las que nos permiten crear programas que interactúen con los circuitos dentro de la placa.
@@ -38,85 +44,54 @@ El microcontrolador de Arduino posee lo que se llama una interfaz de entrada, qu
 
 También cuenta con una interfaz de salida, que es la que se encarga de llevar la información que se ha procesado en el Arduino a otros periféricos. Estos periféricos pueden ser pantallas o altavoces en los que reproducir los datos procesados, pero también pueden ser otras placas o controladores.
 
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/como%20funciona.jpg)
+
+Fig 2. Funncionamiento del Arduino.
+
 ## *PROCEDIMIENTO*
 1. Entrar al programa de Breadboard:
 
-![alt text](https://github.com/Kevi7k/Practica4/blob/master/Img/Diagrama%201.jpg)
-
-Fig.4. Circuito para comprobar el teorema de Superposición
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%201.png)
 
 2.Poner todos los materiales:
 
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%202.png)
+
 3.Armar el circuito:
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%203.png)
 
 4.Dirigirse a la esquina superior derecha y añadir "NEW JAVA SOURCE FILE"
 
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%204.png)
+
 5.Añadir el Add New JAVA
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%205.png)
 
 6.Crear la nueva hoja para la programación.
 
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%206.png)
+
 7.Realizar el respectivo código para que la LED sea intermitente.
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%207.png)
 
 8.Comprobar si funciona.
 
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%208.png)
+
 ## *DIAGRAMA*
 
-![alt text](https://github.com/Kevi7k/Practica4/blob/master/Img/Diagrama%205.jpeg)
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/diagrama.png)
 
-Fig.5. Circuito Simulado en DCAClab
-
-![alt text](https://github.com/Kevi7k/Practica4/blob/master/Img/Diagrama%206.jpg)
-
-Fig.6. Circuito Simulado en TinkerCAD
-
-## *Ecuaciones*
-
-Las ecuaciones que vamos a utilizar para este tema, prácticamente son las mismas de temas anteriores.Lo único que cambia es la metodología al momento de resolver, como los pasos a seguir que tenemos en el marco teórico:
-
-Ley de Ohm I=V/R
-
-Intensidad=Amperio (A)
-
-Voltaje=Voltio (V)
-
-Resistencia= Ohmio (omega)
-
-Una vez obtenido este modelo matemático podemos afirmar que se cumple la siguiente ley:
-
-V1+V2+V3+V4+...Vn=0
-
-Esta ecuación se cumple siempre y cuando sea de solamente una malla, es decir la sumatoria de voltajes dentro de una malla es igual a cero, afirmando eso se cumple otra ley que nos habla sobres las corrientes:
-
-I(salida)=I(entrada)
-
+Fig 3-Circuito Simulado en Breadboard
 
 ## *EXPLICACIÓN DEL CIRCUITO*
 
 En nuestro circuito podemos evidenciar, dos fuentes de voltaje, de 20 V y de 12 V, que serán las que suministren energía al sistema. También contaremos con 4 resistencias, de 1000, 2200, 820 y 470 ohmios. Conectados dichos elementos como podemos evidenciar en nuestros diagramas. Nuestro primer elemento será nuestra fuente de voltaje de 20 V, del polo positivo de nuestra fuente de voltaje, tendremos nuestra resistencia de 1000 ohmios, de la cual tendremos dos resistencias, es decir que nuestra corriente se dividirá en dos. Nuestra primera resistencia resultante es la de 2200 ohmios, la cual saldrá a los polos negativos de las fuentes. La otra resistencia resultante será nuestra resistencia de 820 ohmios, de la cual luego calcularemos la caída de tensión, que tomaremos como Va, y de dicha resistencia tendremos otra división de corriente, la primera es en nuestra resistencia de 470 ohmios, que terminara en los polos negativos de nuestras fuentes, la cual calcularemos el paso de corriente y lo llamaremos Ix. Y, por último, también nuestra resistencia de 820 ohmios estará conectado al polo positivo de nuestra segunda fuente de voltaje. Y los polos negativos de nuestras fuentes estarán conectados entre sí. 
 
 Para nuestro teorema de superposición, podemos calcular los valores de Va e Ix, tomando dos casos distintos, el primer caso apagando nuestra segunda fuente y trabajando como si tuviéramos una sola fuente, y el segundo caso que será apagar nuestra primera fuente y trabajar como si solo tuviéramos una fuente. Al final, al tener nuestros resultados por separado, solo tendremos que sumar nuestros valores respectivos de Va e Ix y tendremos nuestros valores que estamos buscando.
-
-
-## *ANÁLISIS DE RESULTADOS*
-En general los resultados de las mediciones nunca serán exactas, a pesar del máximo cuidado que se tenga en el momento de realizar cada una de ellas, no es posible expresar el reultado como exacto, es por esto que a continuación se ralizará una tabla donde se muestre  el error relativo de cada valor obtenido:
-
-|Voltaje (Va)| Resultados Analíticos |Resultados Experimentales|%Error|
-| ------------- | ------------- | ------------- | ------------- |
-| Cuando V2=0 | 7,479 [V] | 7,48 [V] | 0,013%|
-| Cuando V1=0 | 6,52 [V] | 6,53 [V] | 0,153% |
-| Voltaje total |959[mV] | 952 [mV] | 0,73% |
-
-TABLA III. Cálculo de errores en mediciones de voltaje
-
-|Corriente (Ix)| Resultados Analíticos |Resultados Experimentales|%Error|
-| ------------- | ------------- | ------------- | ------------- |
-| Cuando V2=0 |  0[A] | 0 [A] | 0 %|
-| Cuando V1=0 |25,52[mA] | 25,5 [mA] | 0,078 % |
-|Corriente total | 25,52[mA]| 25,5 [mA] | 0,078 % |
-
-TABLA IV. Cálculo de errores en mediciones de corriente
-
-Luego de observar los resultados de analíticos y experimentales en la Tabla III. como en la Tabla IV. respecto al comportamiento de voltajes y corrientes en los elementos del circuito, que se obtienen de apagar cada una de las fuentes, se puede decir que los errores obtenidos son evidentemente valores pequeños. Lo que nos garantiza la correcta realización de los cálculos respecto a superposición.
 
 ## *CONCLUSIONES*
 
