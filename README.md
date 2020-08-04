@@ -5,11 +5,11 @@ Esta práctica trata de comprender el funcionamiento sobre un elemento electrón
 ## *OBJETIVOS:*
 
 # Objetivo general
-- Diseñar un circuito electrico mediante la simulación en laboratorios virtuales para comprobar el teorema de Superposición.
+- Diseñar un circuito electrico que contenga como elemento principal el Ardiuno con simulaciones.
 
 # Objetivos específico
-- Comprender la metodología de la Superposición para clarificar los conceptos previamente adquiridos en la teoría.
-- Comparar los resultados teóricos con los prácticos para encontrar el error entre mediciones obtenidas.
+- Comprender el procedimiento a realizar , cuando queremos que parpadee un LED
+- Aprender sobre este nuevo elemento electrónico.
 
 ## *LISTA DE MATERIALES:*
 
