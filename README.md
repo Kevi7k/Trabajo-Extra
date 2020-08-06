@@ -5,7 +5,7 @@ Esta práctica trata de comprender el funcionamiento sobre un elemento electrón
 ## *OBJETIVOS:*
 
 # Objetivo general
-- Diseñar un circuito electrico que contenga un sensor y un actuador.
+- Diseñar un circuito electrico que contenga un sensor y otro que tenga un actuador.
 
 # Objetivos específico
 - Comprender el procedimiento de como integrar estos elementos y su funcionamiento con Ardiuno
@@ -88,6 +88,8 @@ Los actuadores van conectados a las salidas de Arduino.
 
 
 ## *PROCEDIMIENTO*
+*CON EL SENSOR*
+
 1. Entrar al programa en linea de tinkercad y colocar todos los materiales que vamos a utilizar:
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%201.png)
@@ -106,18 +108,22 @@ Los actuadores van conectados a las salidas de Arduino.
 
 ## *DIAGRAMA*
 
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/diagrama.png)
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/diagrama..png)
 
 Fig 3-Circuito Simulado en Breadboard
 
+*CON EL ACTUADOR*
+
+
+
+
 ## *EXPLICACIÓN DEL CIRCUITO*
 
-Para realizar este circuito primero debemos dirigirnos al programa de breadboar , abrirlo , seleccionar nuevo documento en blanco, para a partir de eso realizar, entonces seleccionamos todos los elementos que se necesitan para realizar la practica, que son la resistencia ,el arduino y una LED de color rojo. Entonces lo conectamos en serie todo, pero en las terminales del ardiuno en GDN es el de salida y la terminal 9 la de entrada, por lo tomaremos de referencia eso para lo que toque prograrmar.
-Como vimos en los tutoriales, cojemos como un ejemplo el código de programar para este circuito básico y nos basamos en eso, por lo que creamos una Add New java dentro del breadboar para realizar la respectiva programación, adaptamos el codigo y ya listo, probramos la simulación para comprobar si nos sirvio.
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 ## *CONCLUSIONES*
 
-- Al momento de programar se podia elegir el tiempo en el que demorara encendido el LED y el tiempo que tarda en prenderse, por lo que se lo puede hacer intermitente en cualquier intervalo del tiempo.
+- Al momento que la distancia ultrasónica era mas amplia con respecto al sensor, los lEDS empezaban a apagarse.
 
 - Se pudo notar la gran importancia de este dispositivo electrónico que nos puede llegar a hacer muchos proyectos mas interesantes.
 
