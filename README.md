@@ -16,9 +16,10 @@ Esta práctica trata de comprender el funcionamiento sobre un elemento electrón
 | Cantidad | Material de Equipo |
 | ------------- | ------------- |
 | 1  | Arduino |
-|  1 | Resistor de 1k  |
-|  1 | LED    |
+|  3 | Resistor de 220  |
+|  3 | LED    |
 | 1  | Protoboard      |
+| 1  | Sensor ultrásonico| 
 
 ## *MARCO TEÓRICO*
 ¿Que es Ardiuno?
