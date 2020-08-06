@@ -88,37 +88,21 @@ Los actuadores van conectados a las salidas de Arduino.
 
 
 ## *PROCEDIMIENTO*
-1. Entrar al programa de Breadboard:
+1. Entrar al programa en linea de tinkercad y colocar todos los materiales que vamos a utilizar:
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%201.png)
 
-2.Poner todos los materiales:
+2.Armar el circuito:
 
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%202.png)
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%202.png)
 
-3.Armar el circuito:
+3.Colocar el código respectivo, para su programación:
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%203.png)
 
-4.Dirigirse a la esquina superior derecha y añadir "NEW JAVA SOURCE FILE"
+4.Comprobar su funcionamiento
 
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%204.png)
-
-5.Añadir el Add New JAVA
-
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%205.png)
-
-6.Crear la nueva hoja para la programación.
-
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%206.png)
-
-7.Realizar el respectivo código para que la LED sea intermitente.
-
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%207.png)
-
-8.Comprobar si funciona.
-
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%208.png)
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%204.png)
 
 ## *DIAGRAMA*
 
