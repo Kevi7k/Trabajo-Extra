@@ -1,14 +1,14 @@
-# Práctica Extra
+# Sensores y actuadores.
 # Simulación con Ardiuno.
 ## *INTRODUCCIÓN*
-Esta práctica trata de comprender el funcionamiento sobre un elemento electrónico que es muy importante en la actualidad, ya que este combina la electrónica con la programación y es muy utilizado en proyectos e inventos que hay actualmente, nos enfocaremos en una practica un poco sencilla , que consiste en hacer parpadear una LED dentro de un intervalo de tiempo y para realizar eso lo hacemos con el sofware de virtual breadboard , la programacion con IDE arduino, donde se lo realizará paso a paso.
+Esta práctica trata de comprender el funcionamiento sobre un elemento electrónico que es muy importante en la actualidad, ya que este combina la electrónica con la programación y es muy utilizado en proyectos e inventos que hay actualmente, nos enfocaremos en una practica muy interesante que involucra a los sensores y actuadores , que en la actualidad son de mucha utilidad para el Campo laboral, entonces este practica la realizaremos con aplicaciones, es decir los sensores pueden medir magnitudes físicas  y los actuadores como un activador para poder controlar algun elemento mecánico como un motor.
 ## *OBJETIVOS:*
 
 # Objetivo general
-- Diseñar un circuito electrico que contenga como elemento principal el Ardiuno con simulaciones.
+- Diseñar un circuito electrico que contenga un sensor y un actuador.
 
 # Objetivos específico
-- Comprender el procedimiento a realizar , cuando queremos que parpadee un LED
+- Comprender el procedimiento de como integrar estos elementos y su funcionamiento con Ardiuno
 - Aprender sobre este nuevo elemento electrónico.
 
 ## *LISTA DE MATERIALES:*
@@ -47,6 +47,44 @@ También cuenta con una interfaz de salida, que es la que se encarga de llevar l
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/como%20funciona.jpg)
 
 Fig 2. Funncionamiento del Arduino.
+
+*Sensores*
+
+Los sensores son un dispositivos que pueden cuantificar las magnitudes físicas, entre esas pueden ser la temperatura, intesidad lumínica , presión etc...
+En si , son capaces de detectarlas y de ahí transformarlas en  variables eléctronicas.
+
+
+Los sensores se pueden clasificar en función de los datos de salida en:
+
+Digitales
+
+Analógicos
+
+¿Que son?
+
+Sensores digitales: Son los que dan como salida una señal codificada en forma de pulsos o en forma de palabra digital en cualquier tipo de sistema, codificación binaria,BCD, entre otros.
+
+Sensores analógicos: Estos en cambio , dan como salida un  valor de tensión o corriente variable enforma continua dentro del campo de medida. Algunos rangos de salida son: 
+de  0 a 10V, de -5 a 5V, de 4 a 20mA.
+
+*Actuadores*
+
+El actuador es un dispositivo que transforma cualquier energía mecánica en una activación de un proceso al fin de generar un efecto sobre un elemento extremo, por lo tanto este recibe una orden de un controlador , que ya sabemos en esta practica cual es, el arduino. Entonces a partir de ella genera la orden para activar un elemento que pueda controlarlo y un ejemplo de estos , son:
+
+Electrónicos
+
+Hidráulicos
+
+Neumáticos
+
+Eléctricos
+
+Motores
+
+Bombas
+
+Los actuadores van conectados a las salidas de Arduino.
+
 
 ## *PROCEDIMIENTO*
 1. Entrar al programa de Breadboard:
