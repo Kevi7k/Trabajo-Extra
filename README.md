@@ -20,7 +20,7 @@ Esta práctica trata de comprender el funcionamiento sobre un elemento electrón
 |  3 | LED    |
 | 1  | Protoboard      |
 | 1  | Sensor ultrásonico| 
-
+|1   | Piezo  |
 ## *MARCO TEÓRICO*
 ¿Que es Ardiuno?
 
@@ -106,15 +106,38 @@ Los actuadores van conectados a las salidas de Arduino.
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%204.png)
 
+*CON EL ACTUADOR*
+
+1. Entrar al programa en linea de tinkercad y colocar los materiales a utilizar:
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%201.1.png)
+
+2. Armar el cirucito:
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%202.1.png)
+
+3. Colocar el códigco respectivo , para su programación:
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%203.1.png)
+
+4.Comprobar su funcionamiento
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%204.1.png)
+
+
+
 ## *DIAGRAMA*
+*CON EL SENSOR*
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/diagrama..png)
 
-Fig 3-Circuito Simulado en Breadboard
+Fig 3-Circuito Simulado en tinkercad
 
 *CON EL ACTUADOR*
 
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/diagrama%201.1.png)
 
+Fig 4-Circuito Simulado en tinkercad
 
 
 ## *EXPLICACIÓN DEL CIRCUITO*
