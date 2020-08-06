@@ -142,7 +142,7 @@ Fig 4-Circuito Simulado en tinkercad
 
 ## *EXPLICACIÓN DEL CIRCUITO*
 
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
 
 ## *CONCLUSIONES*
 
