@@ -12,7 +12,6 @@ Esta práctica trata de comprender el funcionamiento sobre un elemento electrón
 - Aprender sobre este nuevo elemento electrónico.
 
 ## *LISTA DE MATERIALES:*
-
 | Cantidad | Material de Equipo |
 | ------------- | ------------- |
 | 1  | Arduino |
@@ -35,8 +34,7 @@ El software libre son los programas informáticos donde los códigos son accesib
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/arduino.jpg)
 
 Fig 1. Arduino.
-
-
+vv
 ¿Como funciona?
 
 Este elemento electrónico es una placa basada en un microcontrolador ATMEL, los micocontroladores son circuitos en los cuales se pueden indicar instrucciones , pero eso se lo hace con lenguaje de programación donde utilizamos el enterno Arduino IDE. Esas instrucciones son las que nos permiten crear programas que interactúen con los circuitos dentro de la placa.
@@ -142,13 +140,17 @@ Fig 4-Circuito Simulado en tinkercad
 
 ## *EXPLICACIÓN DEL CIRCUITO*
 
-
+Para la explicación de los sensores y actuadores puede dirigirse a los siguientes links, respectivamente https://www.youtube.com/watch?v=ps-23vgmVrQ&t=83s y https://www.youtube.com/watch?v=fqUp5YXgFdI .
 
 ## *CONCLUSIONES*
 
 - Al momento que la distancia ultrasónica era mas amplia con respecto al sensor, los lEDS empezaban a apagarse.
 
 - Se pudo notar la gran importancia de este dispositivo electrónico que nos puede llegar a hacer muchos proyectos mas interesantes.
+
+- Al programar el piezo, a este era posible aplicar cualquier onda de sonido, obviamente si esta dentro del intervalo entre (0,255) desde una frecuencia bien baja de sonido ,    hasta una bien alta.
+
+- Esta practica, va mas allá de lo aprendido en clase, por lo que es un trabajo extra muy interesante para querer aprender más.
 
 ## *RECOMENDACIONES*
 - Seguir paso a paso las indicaciones de la página web , para así realizar un buen trabajo.
