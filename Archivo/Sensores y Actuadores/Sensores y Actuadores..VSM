@@ -1,0 +1,23 @@
+<VBBSolution name="Sensores y Actuadores" perspective="VBB-Studio">
+	<LAYOUT currentView="1" >
+	<VIEW id="1">
+	</VIEW>
+	<VIEW id="2">
+		<PANE>[Sensores y Actuadores]Breadboard0.VBB</PANE>
+	</VIEW>
+	<VIEW id="3">
+		<PANE>[Sensores y Actuadores]Source0.SRC</PANE>
+	</VIEW>
+	</LAYOUT>
+<PROJECTS>
+<PROJECT>Sensores y Actuadores.SIM</PROJECT>
+<REFERENCES>
+<VBB-EXCLUDES>
+</VBB-EXCLUDES>
+<USER-INCLUDES>
+</USER-INCLUDES>
+<WEB-INCLUDES>
+</WEB-INCLUDES>
+</REFERENCES>
+</PROJECTS>
+</VBBSolution>
