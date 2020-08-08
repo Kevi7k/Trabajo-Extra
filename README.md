@@ -5,6 +5,7 @@ Esta práctica trata de comprender el funcionamiento sobre un elemento electrón
 ## *OBJETIVOS:*
 
 # Objetivo general
+- Aprender a utilizar el sotfware de breadboard
 - Diseñar un circuito electrico que contenga un sensor y otro que tenga un actuador.
 
 # Objetivos específico
@@ -84,11 +85,29 @@ Bombas
 
 Los actuadores van conectados a las salidas de Arduino.
 
+**D. VIRTUAL BREADBOARD V4.46**
+
+Virtual Breadboard (VBB) es un emulador de circuitos integrados de tablero, en el que es capaz de funcionar como un entorno de desarrollo para microcontroladores. La aplicación se utiliza para desarrollar los microcontroladores y emulando circuitos, uniendo esto con el campo de la programación, se pueden hacer muchos proyectos interesantes.
+
+Es un programa para el desarrollo de circuitos digitales que se puede descargar en el siguiente link.
+
+
+**Compomentes mas utilizados**
+
+EEl simulador tiene una gran cantidad de librerias que nos ayudaran para el diseño del circuito, de este depende si el circuito es uno simple o díficil, lo mejor de esto que cuenta con un programa dentro que nos ayuda para la programación, donde podemos colocar los códigos para realizar nuestros proyectos, en la cual las librerias tienen diversos componentes, como motores ,sensores y tambien utiliza memorias dentro de la RAM.
+
+
+FOTO DE LOS COMPONENTES, SEPARADOS.
+Y UNA EXPLICACION DE CADA UNA DE ELLAS.
+
+
+Mostrar los elementos.
+y sus nombres:
+
 
 ## *PROCEDIMIENTO*
-*CON EL SENSOR*
 
-1. Entrar al programa en linea de tinkercad y colocar todos los materiales que vamos a utilizar:
+1. Descargar el Breadboard.
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%201.png)
 
@@ -131,17 +150,10 @@ Los actuadores van conectados a las salidas de Arduino.
 
 Fig 3-Circuito Simulado en tinkercad
 
-*CON EL ACTUADOR*
-
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/diagrama%201.1.png)
-
-Fig 4-Circuito Simulado en tinkercad
 
 
 ## *EXPLICACIÓN DEL CIRCUITO*
-
-Para la explicación de los sensores y actuadores puede dirigirse a los siguientes links, respectivamente https://www.youtube.com/watch?v=ps-23vgmVrQ&t=83s y https://www.youtube.com/watch?v=fqUp5YXgFdI .
-
+el link del video 
 ## *CONCLUSIONES*
 
 - Al momento que la distancia ultrasónica era mas amplia con respecto al sensor, los lEDS empezaban a apagarse.
