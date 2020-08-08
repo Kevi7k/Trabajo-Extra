@@ -165,7 +165,7 @@ Este es el núcleo de todo el sotfware ya que , aquí es donde se encuentran las
 
 
 ## *EXPLICACIÓN DEL CIRCUITO*
-el link del video 
+A continuación el link para toda la explicación https://www.youtube.com/watch?v=ZX_884T8k64&t=18s
 ## *CONCLUSIONES*
 
 - Se pudo notar la gran importancia de este dispositivo electrónico que nos puede llegar a hacer muchos proyectos mas interesantes.
