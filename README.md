@@ -16,11 +16,10 @@ Esta práctica trata de comprender el funcionamiento sobre un elemento electrón
 | Cantidad | Material de Equipo |
 | ------------- | ------------- |
 | 1  | Arduino |
-|  3 | Resistor de 220  |
-|  3 | LED    |
+|  2 | Resistor de 1k  |
 | 1  | Protoboard      |
-| 1  | Sensor ultrásonico| 
-|1   | Piezo  |
+| 1  | Sensor de temperatura| 
+|1   | Robot Wheel  |
 ## *MARCO TEÓRICO*
 ¿Que es Ardiuno?
 
@@ -91,10 +90,11 @@ Virtual Breadboard (VBB) es un emulador de circuitos integrados de tablero, en e
 
 Es un programa para el desarrollo de circuitos digitales que se puede descargar en el siguiente link.
 
+https://drive.google.com/drive/folders/1883yqItndbouUX2_VaTiddjpmhQ4HFZG?usp=sharing
 
 **Componentes**
 
-EEl simulador tiene una gran cantidad de librerias que nos ayudaran para el diseño del circuito, de este depende si el circuito es uno simple o díficil, lo mejor de esto que cuenta con un programa dentro que nos ayuda para la programación, donde podemos colocar los códigos para realizar nuestros proyectos, en la cual las librerias tienen diversos componentes, como motores ,sensores y tambien utiliza memorias dentro de la RAM.
+El simulador tiene una gran cantidad de librerias que nos ayudaran para el diseño del circuito, de este depende si el circuito es uno simple o díficil, lo mejor de esto que cuenta con un programa dentro que nos ayuda para la programación, donde podemos colocar los códigos para realizar nuestros proyectos, en la cual las librerias tienen diversos componentes, como motores ,sensores y tambien utiliza memorias dentro de la RAM.
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Interfaz.png)
 
@@ -131,56 +131,46 @@ Este es el núcleo de todo el sotfware ya que , aquí es donde se encuentran las
 
 1. Descargar el Breadboard.
 
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%201.png)
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/procedimiento%201.png)
 
 2.Instalar:
 
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%202.png)
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/procedimiento%202.png)
 
 3.Iniciar un nuevo proyecto:
 
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%202.png)
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/procedimiento%203.png)
 
 4.Colocar los elementos a utilizar:
 
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%203.png)
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Procedimiento%204.png)
 
 5.Armar el circuito:
 
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%204.png)
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/procedimiento%205.png)
 
-6.Programar
+6. Colocar el códigco respectivo , para su programación:
 
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%201.1.png)
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/procedimiento%206.png)
 
 7.Comprobar su funcionamiento
 
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%202.1.png)
-
-8. Colocar el códigco respectivo , para su programación:
-
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%203.1.png)
-
-9.Comprobar su funcionamiento
-
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%204.1.png)
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/procedimiento%207.png)
 
 
 
 ## *DIAGRAMA*
 
-![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/diagrama..png)
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Diagrama%20V..png)
 
 
 ## *EXPLICACIÓN DEL CIRCUITO*
 el link del video 
 ## *CONCLUSIONES*
 
-- Al momento que la distancia ultrasónica era mas amplia con respecto al sensor, los lEDS empezaban a apagarse.
-
 - Se pudo notar la gran importancia de este dispositivo electrónico que nos puede llegar a hacer muchos proyectos mas interesantes.
 
-- Al programar el piezo, a este era posible aplicar cualquier onda de sonido, obviamente si esta dentro del intervalo entre (0,255) desde una frecuencia bien baja de sonido ,    hasta una bien alta.
+- Al programar el sensor de temperatura , con el actuador, se puede evidenciar que al aumentar la temperatura aumenta la velocidad del actuador.
 
 - Esta practica, va mas allá de lo aprendido en clase, por lo que es un trabajo extra muy interesante para querer aprender más.
 
