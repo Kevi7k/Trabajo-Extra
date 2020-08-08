@@ -35,7 +35,7 @@ El software libre son los programas informáticos donde los códigos son accesib
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/arduino.jpg)
 
 Fig 1. Arduino.
-vv
+
 ¿Como funciona?
 
 Este elemento electrónico es una placa basada en un microcontrolador ATMEL, los micocontroladores son circuitos en los cuales se pueden indicar instrucciones , pero eso se lo hace con lenguaje de programación donde utilizamos el enterno Arduino IDE. Esas instrucciones son las que nos permiten crear programas que interactúen con los circuitos dentro de la placa.
@@ -92,17 +92,39 @@ Virtual Breadboard (VBB) es un emulador de circuitos integrados de tablero, en e
 Es un programa para el desarrollo de circuitos digitales que se puede descargar en el siguiente link.
 
 
-**Compomentes mas utilizados**
+**Componentes**
 
 EEl simulador tiene una gran cantidad de librerias que nos ayudaran para el diseño del circuito, de este depende si el circuito es uno simple o díficil, lo mejor de esto que cuenta con un programa dentro que nos ayuda para la programación, donde podemos colocar los códigos para realizar nuestros proyectos, en la cual las librerias tienen diversos componentes, como motores ,sensores y tambien utiliza memorias dentro de la RAM.
 
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Interfaz.png)
 
-FOTO DE LOS COMPONENTES, SEPARADOS.
-Y UNA EXPLICACION DE CADA UNA DE ELLAS.
+BARRA DE MENU
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Menu.png)
+
+Estas son las opciones operativas principales, que sirve para guardar el proyecto, compilar e inicializar la simulación. 
+
+PANTALLA DE DISEÑO
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Para%20dise%C3%B1ar.png)
+
+Prácticamnete es nuestro espacio de trabajo, aquí se va ha realizar todo el diseño, implementación y conexiones del circuito.
+
+MÓDULO DE PROGRAMACIÓN
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/modulo%20de%20programacion.png)
+
+Aquí es donde debemos colocar el código de programación respectivo a lo que vamos a realizar.
+
+MENÚ DE COMPONENTES
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Componentes.png)
+
+Este es el núcleo de todo el sotfware ya que , aquí es donde se encuentran las principales partes de creación del circuito, como sus elementos que nos ayudaran a crear nuestro proyecto, a continuación en la siguiente imágen veremos mas elementos de estas componentes:
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/elementos%20de%20las%20componentes.png)
 
 
-Mostrar los elementos.
-y sus nombres:
 
 
 ## *PROCEDIMIENTO*
@@ -111,45 +133,43 @@ y sus nombres:
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%201.png)
 
-2.Armar el circuito:
+2.Instalar:
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%202.png)
 
-3.Colocar el código respectivo, para su programación:
+3.Iniciar un nuevo proyecto:
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%202.png)
+
+4.Colocar los elementos a utilizar:
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%203.png)
 
-4.Comprobar su funcionamiento
+5.Armar el circuito:
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Paso%204.png)
 
-*CON EL ACTUADOR*
-
-1. Entrar al programa en linea de tinkercad y colocar los materiales a utilizar:
+6.Programar
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%201.1.png)
 
-2. Armar el cirucito:
+7.Comprobar su funcionamiento
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%202.1.png)
 
-3. Colocar el códigco respectivo , para su programación:
+8. Colocar el códigco respectivo , para su programación:
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%203.1.png)
 
-4.Comprobar su funcionamiento
+9.Comprobar su funcionamiento
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/paso%204.1.png)
 
 
 
 ## *DIAGRAMA*
-*CON EL SENSOR*
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/diagrama..png)
-
-Fig 3-Circuito Simulado en tinkercad
-
 
 
 ## *EXPLICACIÓN DEL CIRCUITO*
