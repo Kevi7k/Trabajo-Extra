@@ -1,14 +1,37 @@
-import muvium.compatibility.arduino.*; 
+import muvium.compatibility.arduino.Arduino;
 
-public class Class0 extends Arduino{  
-	public void setup(){   
-		pinMode(9, OUTPUT); // en vez de pinLED (el numero del termimal)
-	}
-	public void loop(){
+class Sweep extends Arduino{ 
+ 
+	
+	public void setup()  
+	{
+ 
+		pinMode(13, OUTPUT);
+	
+		
+		 
+	}  
+  
+  
+	public void loop()  
+	{  
+		float temperatura = analogRead(0);
+		float milivoltios = ( temperatura / 1023 ) * 5000;
+		temperatura = milivoltios / 10; 
+		
+		if (temperatura > 25 ) {
+			digitalWrite(13, HIGH);
+		
+		}
+		
+		else if (temperatura < 20) {
+			digitalWrite(13, LOW);
+		
+		}
+		
+		
+		
+	}  
+  
 
-		digitalWrite(9, HIGH); // enciende la led
-		delay(1000); // retardo de 1 seg			
-		digitalWrite(9, LOW); // Apaga la led 
-		delay(2000);
-	}
 }
