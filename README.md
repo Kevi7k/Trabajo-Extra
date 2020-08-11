@@ -6,7 +6,7 @@ Esta práctica trata de comprender el funcionamiento sobre un elemento electrón
 
 # Objetivo general
 - Aprender a utilizar el sotfware de breadboard
-- Diseñar un circuito electrico que contenga un sensor y otro que tenga un actuador.
+- Diseñar un circuito electrico que contenga un actuador y un sensor.
 
 # Objetivos específico
 - Comprender el procedimiento de como integrar estos elementos y su funcionamiento con Ardiuno
