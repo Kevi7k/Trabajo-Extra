@@ -92,6 +92,8 @@ Es un programa para el desarrollo de circuitos digitales que se puede descargar 
 
 https://drive.google.com/drive/folders/1883yqItndbouUX2_VaTiddjpmhQ4HFZG?usp=sharing
 
+o tambien como otra alternativa, dirigirse en la parte superior del proyecto, ir a la carpeta Virtual Breadbore, descargar todos las carpetas.
+
 **Componentes**
 
 El simulador tiene una gran cantidad de librerias que nos ayudaran para el diseño del circuito, de este depende si el circuito es uno simple o díficil, lo mejor de esto que cuenta con un programa dentro que nos ayuda para la programación, donde podemos colocar los códigos para realizar nuestros proyectos, en la cual las librerias tienen diversos componentes, como motores ,sensores y tambien utiliza memorias dentro de la RAM.
@@ -123,6 +125,27 @@ MENÚ DE COMPONENTES
 Este es el núcleo de todo el sotfware ya que , aquí es donde se encuentran las principales partes de creación del circuito, como sus elementos que nos ayudaran a crear nuestro proyecto, a continuación en la siguiente imágen veremos mas elementos de estas componentes:
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/elementos%20de%20las%20componentes.png)
+
+Componentes a utilizar:
+-Resistor
+Este es un elemento básico, que nos ayudará a que no se nos "queme" un elemento electrónico dentro del circuito.
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/resistor.png)
+
+- Protoboard:
+Es la placa en la cual se realiza el circuito.
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/protoboard.jpg)
+
+- Sensor de temperatura:
+El LM35 es un circuito electrónico sensor que puede medir temperatura. Su salida es analógica, es decir, te proporciona un voltaje proporcional a la temperatura. El sensor tiene un rango desde −55°C a 150°C
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/LM35-en-protoboard.jpg)
+
+- Robot Wheel
+Es un actuador que viene incluido un tipo motor alado de las ruedas y al elegir las ruedas para que este al programarlo, empiece a girar con sus respectivas ordenes dictadas en la programación.
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Robot%20wheel.jpg)
 
 
 
@@ -184,3 +207,5 @@ A continuación el link para toda la explicación https://www.youtube.com/watch?
 - Xataka, recuperado de https://www.xataka.com/basics/que-arduino-como-funciona-que-puedes-hacer-uno
 
 - https://aprendiendoarduino.wordpress.com/2016/12/18/sensores-y-actuadores/
+
+- https://hetpro-store.com/TUTORIALES/lm35/
