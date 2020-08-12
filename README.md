@@ -126,23 +126,28 @@ Este es el núcleo de todo el sotfware ya que , aquí es donde se encuentran las
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/elementos%20de%20las%20componentes.png)
 
-Componentes a utilizar:
--Resistor
+**Componentes a utilizar:**
+
+-Resistor:
+
 Este es un elemento básico, que nos ayudará a que no se nos "queme" un elemento electrónico dentro del circuito.
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/resistor.png)
 
 - Protoboard:
+
 Es la placa en la cual se realiza el circuito.
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/protoboard.jpg)
 
 - Sensor de temperatura:
+
 El LM35 es un circuito electrónico sensor que puede medir temperatura. Su salida es analógica, es decir, te proporciona un voltaje proporcional a la temperatura. El sensor tiene un rango desde −55°C a 150°C
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/LM35-en-protoboard.jpg)
 
-- Robot Wheel
+- Robot Wheel:
+
 Es un actuador que viene incluido un tipo motor alado de las ruedas y al elegir las ruedas para que este al programarlo, empiece a girar con sus respectivas ordenes dictadas en la programación.
 
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Robot%20wheel.jpg)
