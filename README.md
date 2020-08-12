@@ -178,3 +178,9 @@ A continuación el link para toda la explicación https://www.youtube.com/watch?
 - Seguir paso a paso las indicaciones de la página web , para así realizar un buen trabajo.
 
 - Poner en practica la teoría de clases para así relacionarlo con esta practica.
+
+## *BIBLIOGRAFÍA*
+
+- Xataka, recuperado de https://www.xataka.com/basics/que-arduino-como-funciona-que-puedes-hacer-uno
+
+- https://aprendiendoarduino.wordpress.com/2016/12/18/sensores-y-actuadores/
