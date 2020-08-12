@@ -127,8 +127,13 @@ Este es el núcleo de todo el sotfware ya que , aquí es donde se encuentran las
 ![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/elementos%20de%20las%20componentes.png)
 
 **Componentes a utilizar:**
+- Ardiuno:
 
--Resistor:
+El ardiuno se caracteriza por ser una plataforma electrónica de código libre, la cual está basada en hardware y software libre, flexible y fácil de utilizar para los creadores y desarrolladores
+
+![alt text](https://github.com/Kevi7k/Trabajo-Extra/blob/master/im%C3%A1genes/Componente%20ardiuno.jpg)
+
+- Resistor:
 
 Este es un elemento básico, que nos ayudará a que no se nos "queme" un elemento electrónico dentro del circuito.
 
